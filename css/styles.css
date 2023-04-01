@@ -1031,3 +1031,8 @@ p.back-link {
   margin-bottom: 20px;
   font-size: 12px;
   text-transform: uppercase; }
+
+  .sidebar .fa fa-Income{
+   text-decoration: none;
+    background-color: #30a5ff;
+    color: #fff; }
