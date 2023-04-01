@@ -8,7 +8,7 @@ include('includes/dbconnection.php');
 <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
         <div class="profile-sidebar">
             <div class="profile-userpic">
-                <img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.f3DM2upCo-p_NPRwBAwbKQHaHa&pid=Api&P=0" class="img-responsive" alt="">
             </div>
             <div class="profile-usertitle">
                 <?php
@@ -49,6 +49,23 @@ $name=$row['FullName'];
                 <em class="fa fa-navicon">&nbsp;</em>Expense Report <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
                 </a>
                 <ul class="children collapse" id="sub-item-2">
+                    <li><a class="" href="Income-report.php">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Daywise Report
+                    </a></li>
+                    <li><a class="" href="expense-monthwise-reports.php">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Monthwise Expenses
+                    </a></li>
+                    <li><a class="" href="expense-yearwise-reports.php">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Yearwise Expenses
+                    </a></li>
+                    
+                </ul>
+            </li>
+    
+            <li class="parent "><a data-toggle="collapse" href="#sub-item-3">
+                <em class="fa fa-navicon">&nbsp;</em>Income<span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+                </a>
+                <ul class="children collapse" id="sub-item-3">
                     <li><a class="" href="expense-datewise-reports.php">
                         <span class="fa fa-arrow-right">&nbsp;</span> Daywise Expenses
                     </a></li>
@@ -61,6 +78,8 @@ $name=$row['FullName'];
                     
                 </ul>
             </li>
+
+            
 
 
 
