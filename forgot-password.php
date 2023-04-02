@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
     else{
       $msg="Invalid Details. Please try again.";
     }
-  }
+  } 
   ?>
 <!DOCTYPE html>
 <html>

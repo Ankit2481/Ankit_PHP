@@ -67,13 +67,7 @@ $name=$row['FullName'];
                 </a>
                 <ul class="children collapse" id="sub-item-3">
                     <li><a class="" href="expense-datewise-reports.php">
-                        <span class="fa fa-arrow-right">&nbsp;</span> Daywise Expenses
-                    </a></li>
-                    <li><a class="" href="expense-monthwise-reports.php">
-                        <span class="fa fa-arrow-right">&nbsp;</span> Monthwise Expenses
-                    </a></li>
-                    <li><a class="" href="expense-yearwise-reports.php">
-                        <span class="fa fa-arrow-right">&nbsp;</span> Yearwise Expenses
+                        <span class="fa fa-arrow-right">&nbsp;</span> Income Report
                     </a></li>
                     
                 </ul>
