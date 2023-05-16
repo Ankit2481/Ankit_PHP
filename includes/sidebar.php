@@ -49,7 +49,7 @@ $name=$row['FullName'];
                 <em class="fa fa-navicon">&nbsp;</em>Expense Report <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
                 </a>
                 <ul class="children collapse" id="sub-item-2">
-                    <li><a class="" href="Income-report.php">
+                    <li><a class="" href="expense-datewise-reports.php">
                         <span class="fa fa-arrow-right">&nbsp;</span> Daywise Report
                     </a></li>
                     <li><a class="" href="expense-monthwise-reports.php">
@@ -66,8 +66,11 @@ $name=$row['FullName'];
                 <em class="fa fa-navicon">&nbsp;</em>Income<span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
                 </a>
                 <ul class="children collapse" id="sub-item-3">
-                    <li><a class="" href="expense-datewise-reports.php">
-                        <span class="fa fa-arrow-right">&nbsp;</span> Income Report
+                    <li><a class="" href="Add-Income.php">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Add Income
+                    </a></li>
+                    <li><a class="" href="manage-income.php">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Manage Income
                     </a></li>
                     
                 </ul>
